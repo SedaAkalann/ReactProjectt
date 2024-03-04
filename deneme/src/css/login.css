@@ -1,0 +1,48 @@
+.logInContainer {
+  background-image: url("../assets/giriş.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logInImg {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.logForm {
+  margin-top: 150px;
+  margin-left: 900px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1350px) {
+  .logForm {
+    margin-left: 700px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .logForm {
+    margin-left: 500px;
+  }
+}
+@media (max-width: 950px) {
+  .logForm {
+    margin-left: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .logForm {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .logForm {
+    margin-left: 30px;
+    width: 300px;
+  }
+}

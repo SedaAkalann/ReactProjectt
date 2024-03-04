@@ -1,0 +1,40 @@
+.dialogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+}
+.dialog-stack {
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+}
+.dialogTitle {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin: 0px 10px !important;
+  padding: 8px !important;
+}
+.stack-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cardContainer {
+  max-width: 300px;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 8px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

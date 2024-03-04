@@ -1,0 +1,26 @@
+.card {
+  width: 250px;
+  height: 250px;
+}
+.card-stack {
+  /* width: 200px;
+  height: 200px; */
+  text-align: center;
+  font-weight: bold;
+}
+.id {
+  margin-bottom: 15px !important;
+}
+.imgStack {
+  width: 100%;
+  max-height: 185px;
+  margin-bottom: 10px !important;
+}
+.cardImg {
+  object-fit: contain !important;
+}
+.cardBtn {
+  margin-top: 15px !important;
+  padding: 8px 35px !important;
+  /* position: sticky; */
+}
